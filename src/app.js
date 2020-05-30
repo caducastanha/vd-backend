@@ -12,7 +12,7 @@ class App {
   }
 
   middlewares() {
-    this.server.use(express.json()); //permite que o express envie e receba requisições json
+    this.server.use(express.json()); // permite que o express envie e receba requisições json
   }
 
   routes() {
